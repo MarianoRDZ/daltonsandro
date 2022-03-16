@@ -55,4 +55,4 @@ client.on("message", (msg) => {
 });
 
 // Logineamos
-client.login(process.env.DISCORD_TOKEN);
+client.login("OTUzNDE0ODc2MTI5MjY3NzIy.YjEOzA.eGtnBJpi5evSqodttekHYqoZKbg");
