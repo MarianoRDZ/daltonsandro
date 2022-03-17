@@ -4,7 +4,7 @@ const { daltonQuotes, daltonTips } = require("./daltonQuotes");
 require("dotenv").config();
 
 generateRandomNumber = (max, min) => {
-  return Math.floor(Math.random() * (max - min + 1) + min);
+  return Math.floor(Math.random() * (max - min) + min);
 };
 
 client.on("ready", () => {
