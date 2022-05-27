@@ -52,6 +52,16 @@ client.on("message", (msg) => {
       `El ${botName} dice que tu nivel de bot es de ${movement} sobre ${10}. ${frase}`
     );
   }
+
+  if (msg.content === "!duelopro") {
+    message.channel.send(
+      `${
+        message.member.user.tag
+      } ha retado a a un duelo con cuchillos\nLa pelea está re ida pero ambos saben que solo puede haber un ganador\nSe muerden, rasguñan y pican los ojos el uno con el otro\nGANADOR: ${[
+        $(Math.floor(Math.random() * 2) + 1),
+      ]}`
+    );
+  }
 });
 
 // Logineamos
