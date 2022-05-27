@@ -19,6 +19,10 @@ const daltonQuotes = [
   "En breve Vicky sube a AK y desinstala",
   "Rodro, haceme caso a las calls",
   "Era eco Rodro...",
+  "A Rodro lo pasan por arriba en Overpass",
+  "Ese provinciano no conoce ni la SUBE",
+  "Vicky dejá de boludear a Marian",
+  "Marian te amo bebecito",
 ];
 
 const daltonTips = [

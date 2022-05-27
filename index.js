@@ -4,7 +4,7 @@ const { daltonQuotes, daltonTips } = require("./daltonQuotes");
 require("dotenv").config();
 
 generateRandomNumber = (max, min) => {
-  return Math.floor(Math.random() * (max - min + 1) + min);
+  return Math.floor(Math.random() * (max - min) + min);
 };
 
 client.on("ready", () => {
@@ -65,4 +65,4 @@ client.on("message", (msg) => {
 });
 
 // Logineamos
-client.login(process.env.DISCORD_TOKEN);
+client.login("OTUzNDE0ODc2MTI5MjY3NzIy.YjEOzA.eGtnBJpi5evSqodttekHYqoZKbg");
